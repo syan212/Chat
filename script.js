@@ -1,7 +1,7 @@
-function submit(){
-  let uname = getElementById("uname").value;
-  let pword = getElementById("pword").value;
-  if uname == "hello"{
+function submit() {
+  let uname = document.getElementById("uname").value;
+  let pword = document.getElementById("pword").value;
+  if (uname == "hello") {
     alert("Hello hello");
   }
 }
