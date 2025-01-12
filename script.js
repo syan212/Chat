@@ -10,6 +10,11 @@ function submit() {
       return response.text();
     })
     .then(data => {
+      data = data.split("\n")
+      let dict = [{}]
+      for (let i = 0;i < data.length;i++){
+        dict[data[i].split(":")[0]] = data[i].split(":")[1];
+      }
       if (uname == "admin123" && pword == "password") {
         document.getElementById("web_page").style.display = "block";
         document.getElementById("login").style.display = "none";
