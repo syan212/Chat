@@ -2,7 +2,7 @@ function submit() {
   let uname = document.getElementById("uname").value;
   let pword = document.getElementById("pword").value;
   
-  fetch('Source code/password.txt')
+  fetch('./Source code/password.txt')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
