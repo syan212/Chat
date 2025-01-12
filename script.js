@@ -2,7 +2,7 @@ const fs = require('lib/fs')
 function submit() {
   let uname = document.getElementById("uname").value;
   let pword = document.getElementById("pword").value;
-  fs.readFile('Input.txt', (err, data) => {
+  fs.readFile('Source code/password.txt', (err, data) => {
     if (err) throw err;
     let d = data;
   });
