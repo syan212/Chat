@@ -1,6 +1,6 @@
 function submit(){
-  uname = getElementById("uname").value;
-  pword = getElementById("pword").value;
+  let uname = getElementById("uname").value;
+  let pword = getElementById("pword").value;
   if uname == "hello"{
     alert("Hello hello");
   }
