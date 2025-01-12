@@ -6,7 +6,7 @@ function submit() {
     if (err) throw err;
     let d = data;
   });
-  if (uname == "admin123" & pword == "password") {
+  if (uname == "admin123" && pword == "password") {
     document.getElementById("web_page").style.display = "block";
     document.getElementById("login").style.display = "none";
     alert(d);
