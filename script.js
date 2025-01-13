@@ -11,9 +11,10 @@ function submit() {
     })
     .then(data => {
       data = data.split("\n")
-      let dict = [{}]
-      for (let i = 0;i < data.length;i++){
-        dict[data[i].split(":")[0]] = data[i].split(":")[1];
+      let dict = {}; // Initialize as an empty object
+      for (let i = 0; i < data.length; i++){
+        let [user, pass] = data[i].split(":");
+        dict[user] = pass;
       }
       if (uname == "admin123" && pword == "password") {
         document.getElementById("web_page").style.display = "block";
