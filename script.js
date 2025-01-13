@@ -19,8 +19,6 @@ function submit() {
       if (dict[uname] == pword) {
         document.getElementById("web_page").style.display = "block";
         document.getElementById("login").style.display = "none";
-        alert(data);
-        alert(JSON.stringify(dict));
       }
     })
     .catch(error => {
