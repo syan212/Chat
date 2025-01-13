@@ -4,13 +4,15 @@
     <script src = "script.js"></script>
   </head>
   <body>
-    <div id = "login">
-      <h1 id = "login_sign">Login</h1>
-      <label for="uname">Username:</label>
-      <input type="text" id="uname" name="uname" required><br><br>
-      <label for="pword">Password:</label>
-      <input type="text" id="pword" name="pword" required><br><br>
-      <button id="login_button" onclick="submit()">Login</button>
+    <div id = "login_form_continer">
+      <form class = "login_form">
+        <h1 id = "login_sign">Login</h1>
+        <label for="uname">Username:</label>
+        <input type="text" id="uname" name="uname" required><br><br>
+        <label for="pword">Password:</label>
+        <input type="text" id="pword" name="pword" required><br><br>
+        <button id="login_button" onclick="submit()" type = "submit">Login</button>
+      </form>
     </div>
     <div id = "web_page" style = "display:none">
       <h1>Welcome!!!!!!!!</h1>
