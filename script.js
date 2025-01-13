@@ -16,7 +16,7 @@ function submit() {
         let [user, pass] = data[i].split(":");
         dict[user] = pass;
       }
-      if (uname == "admin123" && pword == "password") {
+      if (dict[uname] == pword) {
         document.getElementById("web_page").style.display = "block";
         document.getElementById("login").style.display = "none";
         alert(data);
