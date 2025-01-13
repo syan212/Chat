@@ -20,7 +20,7 @@ function submit() {
         document.getElementById("web_page").style.display = "block";
         document.getElementById("login").style.display = "none";
         alert(data);
-        alert(dict);
+        alert(JSON.stringify(dict));
       }
     })
     .catch(error => {
