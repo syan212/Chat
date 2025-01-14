@@ -1,8 +1,5 @@
 #login_form_container {
-  margin: auto;
-  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Make sure the container takes full viewport height */
 }
