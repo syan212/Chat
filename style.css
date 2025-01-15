@@ -1,5 +1,5 @@
 #login_form_container {
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin: auto;
 }
