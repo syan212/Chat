@@ -1,4 +1,6 @@
 #login_form_container {
   width: 10%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40%;
 }
