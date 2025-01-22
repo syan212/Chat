@@ -19,6 +19,10 @@ function submit() {
       if (dict[uname] == pword) {
         document.getElementById("web_page").style.display = "block";
         document.getElementById("login_form_container").style.display = "none";
+        documuent.getElementById("incorrect").style.display = "none";
+      }
+      else{
+        documuent.getElementById("incorrect").style.display = "block";
       }
     })
     .catch(error => {
