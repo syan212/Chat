@@ -20,9 +20,8 @@ function submit() {
         document.getElementById("web_page").style.display = "block";
         document.getElementById("login_form_container").style.display = "none";
         documuent.getElementById("incorrect").style.display = "none";
-      }
-      else{
-        documuent.getElementById("incorrect").style.display = "block";
+      }else{
+        documuent.getElementById("incorrect_message").style.display = "block";
       }
     })
     .catch(error => {
