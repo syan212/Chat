@@ -19,9 +19,9 @@ function submit() {
       if (dict[uname] == pword) {
         document.getElementById("web_page").style.display = "block";
         document.getElementById("login_form_container").style.display = "none";
-        documuent.getElementById("incorrect_message").style.display = "none";
+        document.getElementById("incorrect_message").style.display = "none";
       }else{
-        documuent.getElementById("incorrect_message").style.display = "block";
+        document.getElementById("incorrect_message").style.display = "block";
       }
     })
     .catch(error => {
